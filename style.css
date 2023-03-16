@@ -1,0 +1,74 @@
+h1, h2, h3, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+
+input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+#calculate {
+    border: 3px solid black;
+}
+
+#kolo:hover, #trojkat:hover, #trapez:hover {
+    cursor: pointer;
+}
+
+
+#wynik {
+    border: 3px solid black;
+    width: 20%;
+    height: 30%;
+}
+
+
+#kolocalc {
+    background-color: red;
+    border: 3px solid black;
+    width: 20%;
+    height: 30%;
+}
+
+#trojkatcalc {
+    background-color: yellow;
+    border: 3px solid black;
+    width: 20%;
+    height: 30%;
+}
+
+#trapezcalc {
+    background-color: blue;
+    border: 3px solid black;
+    width: 20%;
+    height: 30%;
+}
+
+
+#kolo {
+    background-color: red;
+    width: 5%;
+    border: 3px solid black;
+    height: 115%;
+}
+
+
+#trojkat {
+    background-color: yellow;
+    width: 5%;
+    border: 3px solid black;
+    height: 115%;
+}
+
+#trapez {
+    background-color: blue;
+    width: 5%;
+    border: 3px solid black;
+    height: 115%;
+}

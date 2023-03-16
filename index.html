@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel = "stylesheet">
+</head>
+<body>
+    <div id = "choose">
+        <center>
+            <img src = "png/circle.png" alt = "kolo" id = "kolo">
+            <img src = "png/triangle.png" alt = "trojkat" id = "trojkat">
+            <img src = "png/trapeze.png" alt = "trapez" id = "trapez">
+        </center>
+    </div>
+
+    <br>
+    <br>
+    
+    <center>
+    <div id = "kolocalc">
+        <center>
+            <h1>Obliczanie pola koła</h1>
+            <input type = "number" id = "kolor" placeholder = "Podaj promień">
+            <br>
+            <br>
+            <button id = "kolooblicz" onclick = "oblicz('kolo')">Oblicz</button>
+            <button id = "koloanuluj" onclick="anuluj()">Anuluj</button>
+            <br>
+            <br>
+        </center>
+    </div>
+
+    <div id = "trojkatcalc">
+        <center>
+            <h1>Obliczanie pola trójkąta</h1>
+            <input type = "number" id = "trojkata" placeholder = "Podaj długość podstawy">
+            <input type = "number" id = "trojkath" placeholder = "Podaj wysokość">
+            <br>
+            <br>
+            <button id = "trojkatoblicz" onclick = "oblicz('trojkat')" >Oblicz</button>
+            <button id = "trojkatanuluj" onclick="anuluj()">Anuluj</button>
+            <br>
+            <br>
+        </center>
+    </div>
+
+    <div id = "trapezcalc">
+        <center>
+            <h1>Obliczanie pola trapezu</h1>
+            <input type = "number" id = "trapeza" placeholder = "Podaj długość podstawy">
+            <input type = "number" id = "trapezb" placeholder = "Podaj długość drugiej podstawy">
+            <input type = "number" id = "trapezh" placeholder = "Podaj wysokość">
+            <br>
+            <br>
+            <button id = "trapezoblicz" onclick = "oblicz('trapez')">Oblicz</button>
+            <button id = "trapezanuluj" onclick="anuluj()">Anuluj</button>
+            <br>
+            <br>
+        </center>
+    </div>
+
+    <br>
+    <br>
+
+    <div id = "wynik">
+        <center>
+            <h1>Wynik</h1>
+            <p id = "wynikp"></p>
+            <button onclick = "zamknij()">Zamknij!</button>
+        </center>
+    </div>
+    </center>
+
+</body>
+<script src = "script.js"></script>
+</html>
